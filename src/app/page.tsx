@@ -1,10 +1,13 @@
+import HeroArea from "@/components/HeroArea";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <>
-      <Navbar/>
+      <HeroArea>
+        <Navbar />
+      </HeroArea>
     </>
   );
 }
