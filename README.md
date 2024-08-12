@@ -5,4 +5,4 @@
 - [x] Home Page
 ## Sections
 - [x] Hero
-   - [] Navigation
+   - [ ] Navigation

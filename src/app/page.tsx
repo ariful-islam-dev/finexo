@@ -1,5 +1,7 @@
 import HeroArea from "@/components/HeroArea";
 import Navbar from "@/components/Navbar";
+import Service from "@/components/Service";
+import Slider from "@/components/Slider";
 
 
 export default function Home() {
@@ -7,7 +9,9 @@ export default function Home() {
     <>
       <HeroArea>
         <Navbar />
+        <Slider />
       </HeroArea>
+      <Service />
     </>
   );
 }

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn-primary {
+    @apply py-2 px-5 bg-[#2abeeb] text-white font-semibold  shadow-md hover:bg-[#007FA4] focus:outline-none focus:ring focus:bg-[#007FA4] focus:ring-opacity-75;
+  }
+
+  .color-master {
+   @apply text-[#2abeeb]
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
