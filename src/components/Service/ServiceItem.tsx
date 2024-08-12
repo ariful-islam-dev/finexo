@@ -9,12 +9,12 @@ type serviceProps = {
 
 const ServiceItem: React.FC<serviceProps> = ({ srvImg, title,describe, url }: serviceProps) => {
     return (
-        <div className="bg-gray-200 shadow-sm rounded">
+        <div className="bg-gray-200 dark:bg-gray-900 shadow-sm rounded-lg">
             <div className="flex flex-col items-center p-5">
                 <div className="w-40 py-4">
                     <Image src={srvImg} alt="Service Image" />
                 </div>
-                <div className=" text-center my-3">
+                <div className=" text-center my-3 dark:text-white">
                     <h5 className='text-2xl font-semibold'>
                        {title}
                     </h5>
