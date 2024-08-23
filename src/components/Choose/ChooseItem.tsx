@@ -9,7 +9,7 @@ type chooseProps = {
 
 const ChooseItem: React.FC<chooseProps> = (props: chooseProps) => {
     return (
-        <div className="flex gap-5 items-center bg-blue-200 dark:bg-blue-950 p-5 rounded-md shadow-md">
+        <div className="flex flex-col lg:flex-row gap-5 items-center bg-blue-200 dark:bg-blue-950 p-5 rounded-md shadow-md">
             <div className="img-box">
                 <Image src={props.img} alt={props.title} />
             </div>

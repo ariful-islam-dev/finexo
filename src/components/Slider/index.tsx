@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination,  Mousewheel, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/swiper-bundle.css";
 import Slide from './Slide';

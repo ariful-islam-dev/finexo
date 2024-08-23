@@ -9,8 +9,8 @@ type SlideProps = {
 const Slide:React.FC<SlideProps> = ({image}:SlideProps) => {
     return (
         
-            <div className="container mx-auto flex items-center">
-                <div className="col-md-6 ">
+            <div className="container  mx-auto flex flex-col md:flex-row lg:flex-row xl:flex-row items-center">
+                <div className="">
                     <div className="detail-box">
                         <h1 className='text-6xl uppercase font-semibold space-y-3 text-white'>
                             Crypto <br className='my-6' />
@@ -26,9 +26,9 @@ const Slide:React.FC<SlideProps> = ({image}:SlideProps) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6">
-                    <div className="img-box">
-                        <Image src={image} alt='Slider Item'/>
+                <div className="">
+                    <div className="sm:max-w-[95%]">
+                        <Image src={image} alt='Slider Item' className='w-full'/>
                     </div>
                 </div>
             </div>

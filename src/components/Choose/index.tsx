@@ -42,7 +42,7 @@ const Choose:React.FC = () => {
         <section className="py-20">
             <div className="container mx-auto">
                 <SectionHeading title='Why Choose Us'/>
-                <div className="grid grid-cols-2 gap-6 lg:gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
                   {
                     chooses.map((choose, key)=>(
                         <ChooseItem title={choose.title} description={choose.description} img={choose.img} key={key}/>

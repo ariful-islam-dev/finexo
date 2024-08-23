@@ -29,14 +29,14 @@ const services = [
 
 const Service = () => {
     return (
-        <section className="py-20">
+        <section className="py-20 sm:px-5">
             <div className="">
                 <div className="container mx-auto">
                     <SectionHeading
                         title="Our Services"
                         paragraph="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration"
                     />
-                    <div className="grid grid-cols-3 grid-flow-row gap-10 xl:gap-20 my-10">
+                    <div className="grid md:grid-cols-3 grid-cols-1 grid-flow-row gap-10 xl:gap-20 my-10">
                         {
                             services.map((service, key) => (
                                 <ServiceItem

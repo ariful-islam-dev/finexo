@@ -5,6 +5,8 @@ import Slider from "@/components/Slider";
 import About from "@/components/About";
 import Choose from "@/components/Choose";
 import Team from "@/components/Team";
+import Customer from "@/components/Customers";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <About/>
       <Choose/>
       <Team/>
+      <Customer/>
+      <Footer/>
     </>
   );
 }

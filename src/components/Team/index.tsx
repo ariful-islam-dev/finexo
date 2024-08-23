@@ -35,7 +35,7 @@ const Team = () => {
           <SectionHeading title='Our Team'/>
     
           <div className="team_container">
-            <div className="grid grid-cols-4 lg:gap-10 xl:gap-10 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 lg:gap-10 xl:gap-10 gap-6">
               {
                 teams.map((team, key)=>(
                     <TeamPerson name={team.name} designation={team.designation} photo={team.photo} key={key}/>

@@ -13,15 +13,15 @@ const About = () => {
 
           />
           
-          <div className="grid grid-cols-2 gap-10 ">
+          <div className="grid md:grid-cols-2 sm:px-5 grid-cols-1 gap-10 ">
             <div className=" ">
               <div className="w-full">
                 <Image src={aboutImg} alt="About"/>
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center text-center md:text-left">
               <div className="detail-box">
-                <h3 className='text-2xl'>
+                <h3 className='text-2xl '>
                   We Are Finexo
                 </h3>
                 <p className='py-5'>
