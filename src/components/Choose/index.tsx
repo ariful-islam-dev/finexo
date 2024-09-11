@@ -50,7 +50,7 @@ const Choose:React.FC = () => {
                   }
                 </div>
                 <div className="flex justify-center py-10">
-                    <Link href="#" className='btn btn-primary'>
+                    <Link href="/why-us" className='btn btn-primary'>
                         Read More
                     </Link>
                 </div>

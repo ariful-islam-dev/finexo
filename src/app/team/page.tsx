@@ -1,19 +1,19 @@
 import Footer from '@/components/Footer';
 import HeroArea from '@/components/HeroArea';
 import Navbar from '@/components/Navbar';
-import ServiceComponent from '@/components/Service';
+import TeamComponent from '@/components/Team'
 import React from 'react';
 
-const Service = () => {
+const Team = () => {
     return (
         <>
-            <HeroArea path='/service'>
-                <Navbar path='/service'/>
+            <HeroArea path='/team'>
+                <Navbar path='/team'/>
             </HeroArea>
-            <ServiceComponent/>
+            <TeamComponent/>
             <Footer/>
         </>
     );
 };
 
-export default Service;
+export default Team;

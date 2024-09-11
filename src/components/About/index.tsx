@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import aboutImg from '@/images/about-img.png'
 import SectionHeading from '../SectionHeading';
+import Link from 'next/link';
 
 const About = () => {
     return (
@@ -33,9 +34,9 @@ const About = () => {
                 <p className='pb-5'>
                   Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
                 </p>
-                <a href=""className='btn btn-primary'>
+                <Link href="/about"className='btn btn-primary'>
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

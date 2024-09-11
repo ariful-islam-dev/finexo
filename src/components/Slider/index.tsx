@@ -15,13 +15,13 @@ const Slider = () => {
                 delay: 2500,
                 disableOnInteraction: false,
             }} pagination={{ clickable: true }} modules={[Pagination, Mousewheel, Navigation, Autoplay]}
-                style={{
-                    "--swiper-pagination-color": "#43E8E0",
-                    "--swiper-pagination-bullet-inactive-color": "#fff",
-                    "--swiper-pagination-bullet-inactive-opacity": "1",
-                    "--swiper-pagination-bullet-size": "16px",
-                    "--swiper-pagination-bullet-horizontal-gap": "10px"
-                }}
+                // style={{
+                //     "--swiper-pagination-color": "#43E8E0",
+                //     "--swiper-pagination-bullet-inactive-color": "#fff",
+                //     "--swiper-pagination-bullet-inactive-opacity": "1",
+                //     "--swiper-pagination-bullet-size": "16px",
+                //     "--swiper-pagination-bullet-horizontal-gap": "10px"
+                // }}
             >
                 <SwiperSlide><Slide image={slideImg} /></SwiperSlide>
                 <SwiperSlide><Slide image={slideImg} /></SwiperSlide>

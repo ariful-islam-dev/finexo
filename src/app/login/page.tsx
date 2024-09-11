@@ -1,14 +1,27 @@
+'use client'
+import SignUp from '@/components/Authentication/SignUp';
+import LoginCom from '@/components/Authentication/Login';
+import Footer from '@/components/Footer';
 import HeroArea from '@/components/HeroArea';
 import Navbar from '@/components/Navbar';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Login = () => {
+    const [login, setLogin]=useState<boolean>(false)
+
+    const handleLogin=()=>{
+        setLogin(!login)
+    }
+
     return (
         <div>
-            <HeroArea>
-                <Navbar/>
+            <HeroArea path="/login">
+                <Navbar path='/login' />
             </HeroArea>
-            <h1>Login Page</h1>
+           {
+            login ? <SignUp handleLogin={handleLogin} /> : <LoginCom handleLogin={handleLogin} />
+           }
+            <Footer />
         </div>
     );
 };

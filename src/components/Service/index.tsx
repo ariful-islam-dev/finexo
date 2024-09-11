@@ -51,7 +51,7 @@ const Service = () => {
 
                     </div>
                   <div className='w-full flex justify-center'>
-                  <Link href={"/"} className=" mx-auto btn btn-primary">
+                  <Link href={"/service"} className=" mx-auto btn btn-primary">
                         View All
                     </Link>
                   </div>

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             {/* Footer Info  */}
-            <section className="bg-blue-950 py-20">
+            <section className="bg-[#012d69] py-20">
                 <div className="container mx-auto">
                     <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-4 text-white">
                         <div className="">
@@ -102,8 +102,8 @@ const Footer = () => {
             <section className="py-5 text-center">
                 <div className="container mx-auto">
                     <p>
-                        &copy; <span id="displayYear"></span> All Rights Reserved By
-                        <a href="https://html.design/">Free Html Templates</a>
+                        &copy; <span></span> All Rights Reserved By
+                        || Md. Ariful Islam
                     </p>
                 </div>
             </section>
